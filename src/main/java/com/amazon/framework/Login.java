@@ -10,7 +10,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class Main {
+public class Login {
     public static void main(String[] args) {
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.amazon.com");
